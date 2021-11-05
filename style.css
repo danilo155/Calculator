@@ -1,0 +1,39 @@
+#screen {
+
+            width: 100px;
+
+            height: 30px;
+
+            border: 1px solid black;
+
+margin: 0 auto;
+
+        }
+.content{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.container{
+    width: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.numbers{
+    display: flex;
+    cursor: pointer;
+    flex-wrap: wrap;
+    width: 50%;
+}
+#one,#two,#three,#four,#fife,#six,#seven,#eit,#nine{
+    padding-left: 10px;
+}
+#plus,#minus,#equals{
+    padding-left: 20px;
+}
+.Actions{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
