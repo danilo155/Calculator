@@ -5,34 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Calculator</title>
 </head>
 <body>
-    <div class="content">
-        <div id="screen"></div>
-        <div class="container">
-            <div class="numbers">
-                <div id="zero">0</div>
-                <div id="one">1</div>
-                <div id="two">2</div>
-                <div id="three">3</div>
-                <div id="four">4</div>
-                <div id="fife">5</div>
-                <div id="six">6</div>
-                <div id="seven">7</div>
-                <div id="eit">8</div>
-                <div id="nine">9</div>
-            </div>
-            
-        </div>
-        <div class="container">
-            <div class="Actions">
-                    <div id="point">.</div>
-                    <div id="plus">+</div>
-                    <div id="minus">-</div>
-                    <div id="equals">=</div>
-                </div>
-        </div>
+    <div class="container">
+        <div class="item input"><form action=""name='form'><input type="text" name="textview"readonly id=""></form></div>
+        <div class="item clean" onclick="clean()">C</div>
+        <div class="item back " onclick="back()">&larr;</div>
+        <div class="item"onclick="insert('+')">+</div>
+        <div class="item"onclick="insert('-')">-</div>
+        <div class="item"onclick="insert('*')">&times;</div>
+        <div class="item"onclick="insert('/')">&divide;</div>
+        <div class="item"onclick="insert('7')">7</div>
+        <div class="item"onclick="insert('8')">8</div>
+        <div class="item"onclick="insert('9')">9</div>
+        <div class="item"onclick="insert('(')">(</div>
+        <div class="item"onclick="insert('4')">4</div>
+        <div class="item"onclick="insert('5')">5</div>
+        <div class="item"onclick="insert('6')">6</div>
+        <div class="item"onclick="insert(')')">)</div>
+        <div class="item"onclick="insert('1')">1</div>
+        <div class="item"onclick="insert('2')">2</div>
+        <div class="item"onclick="insert('3')">3</div>
+        <div class="item equal" onclick="equal()">=</div>
+        <div class="item zero" onclick="insert('0')">0</div>
+        <div class="item"onclick="insert('.')">.</div>
     </div>
     <script src="script.js"></script>
 </body>
